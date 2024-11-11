@@ -1,0 +1,41 @@
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: rgb(201, 179, 150);
+}
+header {
+    background-color: rgb(248, 251, 254);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header li {
+    display: inline;
+}
+header li a{
+    color: #3e07e3;
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    height: 300px;
+}
+.articles article {
+    width:auto;
+}
