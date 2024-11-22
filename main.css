@@ -1,0 +1,89 @@
+
+
+
+
+body > header{
+    background-color: rgb(128, 128, 244);
+    padding: 8px 0;
+    color: aliceblue;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: baseline;
+}
+
+
+header li {
+    display: inline;
+}
+header li a{
+    color: aliceblue;
+}
+
+.conteiner {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+section .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#sports {
+    background-color: rgb(96, 223, 119);
+}
+
+#sports .articles article a {
+    background-color: rgba(38, 116, 38, 0.872);
+}
+
+#economy {
+    background-color: rgba(248, 229, 145, 0.724);
+}
+
+#economy .articles article a {
+    background-color: rgb(239, 193, 108);
+}
+
+#nature {
+    background-color: rgb(47, 255, 206);
+}
+
+#nature .articles article a {
+    background-color: rgb(124, 124, 236);
+}
+
+#tecnology {
+    background-color: rgba(100, 67, 67, 0.689);
+}
+#tecnology .articles article a {
+    background-color: rgb(244, 163, 232);
+}
